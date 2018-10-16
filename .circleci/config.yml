@@ -20,6 +20,9 @@ jobs:
           paths:
             - node_modules
           key: dependencies-{{ checksum "package-lock.json" }}
+      - run:
+          name: Lint the sources
+          command: npm run lint
       - deploy:
           name: Deploy
           command: |
