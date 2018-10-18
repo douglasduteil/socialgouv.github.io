@@ -1,3 +1,4 @@
+import React from "react";
 import { Hero, Layout, Section } from "../../src/composants";
 
 const title = (
@@ -29,9 +30,9 @@ const JourJ = () => (
         services de l&apos;état à mettre rapidement à l&apos;abris les personnes
         à la rue durant l&apos;hiver. <br />- Mettre en valeur les territoires
         déficitaires en professionels de santé afin de favoriser leur
-        installation <br />- "Dites le nous une fois" pour les entreprises
-        étrangères détachant des salariés en France <br />- Outiller les
-        travailleurs sociaux pour accompagner les exclus numériques <br />-
+        installation <br />- &quot;Dites le nous une fois&quot; pour les
+        entreprises étrangères détachant des salariés en France <br />- Outiller
+        les travailleurs sociaux pour accompagner les exclus numériques <br />-
         Stimuler les jeunes dans leurs démarches tout au long de leur parcours
         afin d&apos;assurer un meilleur suivi par les DIRECCTE et les
         conseillers Mission Locale. <br />- Améliorer l’accès à l’offre de soins
@@ -48,12 +49,16 @@ const JourJ = () => (
         pôle modernisation et Hélène Brisset, notre directrice.
         <br /> Les orateurs ont eu beaucoup de talent ! C&apos;est au final les
         projets 1, 3 et 4 qui ont remporté l&apos;adhésion du jury. <br />
-        <br />A très bientôt pour avoir des nouvelles de nos nouveaux "intras" !
-        <br />
+        <br />A très bientôt pour avoir des nouvelles de nos nouveaux
+        &quot;intras&quot; !<br />
         <br />
         <br />
         <div style={{ textAlign: "center" }}>
-          <img src="/static/images/pitchday-1.jpg" width="70%" />
+          <img
+            alt="Le pitch day"
+            src="/static/images/pitchday-1.jpg"
+            width="70%"
+          />
         </div>
         <br />
       </div>
